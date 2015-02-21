@@ -1,0 +1,61 @@
+
+.slider {
+	position: relative;
+	display: block;
+	width:430px;
+	height:586px;
+	z-index:1;
+	overflow:visible!important;
+}
+
+.items {
+	display: none;
+}
+
+.pagination {
+    position: absolute;
+    right: 0px;
+	bottom: -47px;    
+    z-index: 1000;
+}
+.pagination li {
+    margin-right: 4px;
+	float:left;
+}
+.pagination a {    
+    display: block;    
+    width: 17px;
+	height: 15px;
+	background: url(../images/pagination.png) left top no-repeat;
+}
+
+
+
+.pagination a:hover, .pagination .current a {
+    background-position:right;
+}
+
+.banner {
+	width:430px;
+	height:586px;    
+    position:absolute;
+	top: 0;
+    right: 0;    
+    z-index: 99;
+	overflow:hidden;
+}
+
+.banner .banner_inner{ position:absolute; width:430px; height:135px; background:url(../images/slider_bg.png); margin-top:440px; left:0; top:0; z-index:99; text-align:center;}
+
+.banner .txt1{ font-family:'NeouThin'; font-size:40px; color:#131311; line-height:40px; text-transform:uppercase; text-shadow:2px 2px 5px rgba(1, 1, 1, 0.4); padding-top:15px; letter-spacing:-1px;}
+.banner .txt2{ font-family:'NeouBold'; font-size:30px; color:#131311; line-height:30px; text-transform:uppercase; text-shadow:2px 2px 5px rgba(1, 1, 1, 0.4); padding-top:10px;}
+
+/*.progbar {
+	background:#000;
+	width:100%;
+	height:2px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:6;
+}*/
