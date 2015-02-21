@@ -90,7 +90,7 @@ footer{ height:70px; position:relative; z-index:20;}
 #menu {}
 
 #menu > li { display:block; height:45px; position:relative;}
-#menu > li > a{display: block;width:100%; height:100%; text-decoration:none; position: relative; overflow:hidden;text-align:center;letter-spacing:5px; }
+#menu > li > a {display: block;width:100%; height:100%; text-decoration:none; position: relative; overflow:hidden;text-align:center;letter-spacing:5px; }
 #menu > li > a .txt1{ display:block; position: relative; width:100%; height:100%; left:0px; top:0px; z-index:1;font-family:'NeouThin'; font-size:26px; line-height:65px; color:#efd2c4; text-shadow:-7px 7px 8px 5px 5px 10px rgba(1, 1, 1, 0.9);  white-space:normal;text-decoration:none; text-align:center; }
 #menu > li > a .txt2{ display:block; position: absolute; width:100%; height:100%; left:0px; top:0px; z-index:2;font-family:'NeouBold';font-size:26px; line-height:65px; color:#fff; text-shadow:-7px 7px 8px rgba(1, 1, 1, 0.9);  white-space:normal;text-decoration:none; text-align:center; }
 
@@ -107,15 +107,15 @@ footer{ height:70px; position:relative; z-index:20;}
 
 
 #content{ width:430px; height:586px; background:#e3e3e3; position:absolute; left:10px; top:10px; overflow:hidden; z-index:11; }
-#content2{ width:700px; height:586px; background:#e3e3e3; position:absolute;  left:300px; top:10px;overflow:hidden; z-index:11;}
+#content2{ width:700px; height:600px; background:#e3e3e3; position:absolute;  left:300px; top:10px;overflow:hidden; z-index:11;border-radius: 10px;}
 #content > ul{}
 #content > ul > li{ width:680px; height:586px; position:absolute;}
 #content2 > ul{}
-#content2 > ul > li{ width:680px; height:586px; position:absolute;}
+#content2 > ul > li{ width:700px; height:600px; position:absolute; margin: 0 10px 0 5px;}
 
 
 .box{ width:630px; height:540px; position:relative; padding:20px 20px 26px 30px; }
-.box2{ width:695px; height:540px; float:right; padding:0; }
+.box2{ width:675px; height:595px; float:right; padding:0;}
 .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12   { float:left;}
 
 .col1{ width:320px;}
@@ -202,7 +202,7 @@ p.text { padding:5px 0;}
 
 /*===================== jScrollPane =====================*/
 
-.scroll-pane{width: 100%; height:538px; overflow: auto;}
+.scroll-pane{width: 100%; height:790px; overflow: auto;}
 
 
 /*================= Contacts =========================*/
