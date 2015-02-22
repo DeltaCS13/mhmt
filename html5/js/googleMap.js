@@ -1,5 +1,5 @@
 $(window).load(function(){
-	var mapUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3235.158044129334!2d-82.53846100000001!3d35.82059790000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885a185dc48afdaf%3A0xd1ce43aca97f49b7!2s705+Carl+Eller+Rd%2C+Mars+Hill%2C+NC+28754!5e0!3m2!1sen!2sus!4v1424126947152;z=13&amp;output=embed",
+	var mapUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3235.165864823363!2d-82.53869800000002!3d35.820405999999984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885a185dc48afdaf%3A0xc5888dea9686e556!2sMars+Hill+Massage+Therapy!5e0!3m2!1sen!2sus!4v1424630751892;z=13&amp;output=embed",
  		onLoadWebSite = false,
    		googleMapHolder = $(".google_map"),
         backgroundColor = googleMapHolder.css("backgroundColor"),
