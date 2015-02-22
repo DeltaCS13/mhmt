@@ -22,7 +22,6 @@ mark, rp, rt, ruby, summary, time{ display: inline }
 body, html {height:100%;}
 
 body{ background:#131311; border:0; font: 12px Arial, Helvetica, sans-serif; color:#010101; line-height:18px; min-width:1000px; position:relative; overflow:hidden;min-width:1000px;}
-
 .nowrap {
     white-space: nowrap;
 }
@@ -46,12 +45,13 @@ body{ background:#131311; border:0; font: 12px Arial, Helvetica, sans-serif; col
 header{ margin-top:10px; margin-bottom:30px;}
 
 .logo { display:block;text-decoration:none; text-align:center;}
+.logo { display:block;text-decoration:none; text-align:center; margin-top: 20px;}
 .logo .txt1 { font-family:'NeouThin'; font-size:75px; color:#fff; line-height:75px; text-decoration:none; text-transform:uppercase; letter-spacing:0px; text-shadow:-7px 7px 8px rgba(1, 1, 1, 0.4);}
 .logo .txt2 { font-family:'NeouBold'; font-size:30px; color:#fff; line-height:30px; text-decoration:none; text-transform:uppercase; letter-spacing:10px; text-shadow:-7px 7px 8px rgba(1, 1, 1, 0.4); padding-top:10px;}
 
 .logo .txt3 { font-family:'NeouThin'; font-size:30px; color:#fff; line-height:25px; text-decoration:none; text-transform:uppercase; letter-spacing:0px; text-shadow:-7px 7px 8px rgba(1, 1, 1, 0.4);}
 .logo .txt4 { font-family:'NeouBold'; font-size:35px; color:#fff; line-height:45px; text-decoration:none; text-transform:uppercase; letter-spacing:10px; text-shadow:-7px 7px 8px rgba(1, 1, 1, 0.4); padding-top:10px;}
-.logo2 { display:block;text-decoration:none; text-align:center;}
+.logotop {margin-top: 40px;}
 .logo2 .txt5 { font-family:'NeouThin'; font-size:30px; color:#131311; line-height:25px; text-decoration:none; text-transform:uppercase; letter-spacing:0px; text-shadow:-7px 7px 8px rgba(1, 1, 1, 0.4);}
 .logo2 .txt6 { font-family:'NeouBold'; font-size:35px; color:#131311; line-height:45px; text-decoration:none; text-transform:uppercase; letter-spacing:10px; text-shadow:-7px 7px 8px rgba(1, 1, 1, 0.4); padding-top:10px;}
 .main4{ width:450px; height:606px; background:#fff; position:absolute; left:0; top:0; z-index:10;}
@@ -65,8 +65,6 @@ header{ margin-top:10px; margin-bottom:30px;}
 .splash{ width:430px; height:586px; position:absolute; left:10px; top:10px; z-index:12; }
 
 
-
-
 footer{ height:70px; position:relative; z-index:20;}
 
 .copyright{color:#636363; line-height:23px;float:left; padding-left:20px; padding-top:7px; }
@@ -78,10 +76,10 @@ footer{ height:70px; position:relative; z-index:20;}
 
 .tola{ display:inline-block; float:right; padding-top:20px; padding-right:15px;}
 
+.stonePicTreat {width:351px; height:228px; position:absolute; z-index:20; left: -20px; top: 450px;}
 
-
-.ulist1 { list-style-type: disc; margin-left: 40px; padding: 10px 0; font-family:"Arial Black", Gadget, sans-serif;}
-p {font-family:"Arial Black", Gadget, sans-serif;; padding: 3px 3px 20px 10px;}
+.ulist1 { list-style-type: disc; margin-left: 40px; padding: 10px 0; }
+p {font-size: 1.2em;  ; padding: 3px 3px 20px 10px;}
 
 .italic {font-style: italic;}
 /* ============================= main menu ====================== */
@@ -108,14 +106,14 @@ p {font-family:"Arial Black", Gadget, sans-serif;; padding: 3px 3px 20px 10px;}
 
 
 #content{ width:430px; height:586px; background:#e3e3e3; position:absolute; left:10px; top:10px; overflow:hidden; z-index:11; }
-#content2{ width:700px; height:600px; background:#e3e3e3; position:absolute;  left:300px; top:10px;overflow:hidden; z-index:11;border-radius: 10px;}
+#content2{ width:700px; height:600px; background:#e3e3e3; position:absolute;  left:300px; top:40px;overflow:hidden; z-index:11;border-radius: 10px;}
 #content > ul{}
 #content > ul > li{ width:680px; height:586px; position:absolute;}
 #content2 > ul{}
 #content2 > ul > li{ width:700px; height:600px; position:absolute; margin: 0 10px 0 5px;}
 
 
-.box{ width:630px; height:540px; position:relative; padding:0;}
+.box{ width:650px; height:540px; position:relative; padding:0;}
 .box2{ width:685px; height:595px; position:relative; padding:0 0 0 10px; margin-top: -10px;}
 .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12   { float:left;}
 
@@ -136,8 +134,8 @@ p {font-family:"Arial Black", Gadget, sans-serif;; padding: 3px 3px 20px 10px;}
 .w1{ width:191px;}
 
 
-a{ color:#61840d; text-decoration: underline; outline:none}
-a:hover{ text-decoration: none}
+a{ color:#61840d; text-decoration: underline; outline:none;}
+a:hover{ text-decoration: none;}
 
 h2{ font-family:'NeouBold';font-weight:normal; font-size:30px; color:#5a3e26; line-height:30px; background:url(../images/h2_px.gif) left bottom repeat-x; padding:15px 0 15px 0; margin-bottom:15px; letter-spacing:0px; }
 .h2over {margin-left: 28px;}
