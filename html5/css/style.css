@@ -78,9 +78,7 @@ footer{ height:70px; position:relative; z-index:20;}
 
 .tola{ display:inline-block; float:right; padding-top:20px; padding-right:15px;}
 
-
-
-
+.h2over {margin-left: 28px;}
 
 
 /* ============================= main menu ====================== */
@@ -114,8 +112,8 @@ footer{ height:70px; position:relative; z-index:20;}
 #content2 > ul > li{ width:700px; height:600px; position:absolute; margin: 0 10px 0 5px;}
 
 
-.box{ width:630px; height:540px; position:relative; padding:20px 20px 26px 30px; }
-.box2{ width:675px; height:595px; float:right; padding:0;}
+.box{ width:630px; height:540px; position:relative; padding:0;}
+.box2{ width:685px; height:595px; position:relative; padding:0 0 0 10px; margin-top: -10px;}
 .col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9, .col10, .col11, .col12   { float:left;}
 
 .col1{ width:320px;}
@@ -202,7 +200,7 @@ p.text { padding:5px 0;}
 
 /*===================== jScrollPane =====================*/
 
-.scroll-pane{width: 100%; height:790px; overflow: auto;}
+.scroll-pane{width: 100%; height:600px; overflow: auto;}
 
 
 /*================= Contacts =========================*/
