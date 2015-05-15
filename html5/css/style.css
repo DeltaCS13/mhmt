@@ -138,6 +138,9 @@ a{ color:#61840d; text-decoration: underline; outline:none;}
 a:hover{ text-decoration: none;}
 
 h2{ font-family:'NeouBold';font-weight:normal; font-size:30px; color:#5a3e26; line-height:30px; background:url(../images/h2_px.gif) left bottom repeat-x; padding:15px 0 15px 0; margin-bottom:15px; letter-spacing:0px; }
+.secondH2 {  font-family:'Neou';font-size:25px; font-style: italic;color:#5a3e26; line-height:20px; padding:15px 0 15px 0; margin:-15px 0 10px 25px; letter-spacing:0px; background:none;}
+
+
 .h2over {margin-left: 28px;}
 .h2overB {margin-left: 15px;}
 .h3{ color:#4b6a00; font-size:20px; }
@@ -286,7 +289,5 @@ input.submit:hover{ background-position:bottom; }
 }
 
 .servicesImg {
-    
-    margin: 0 12px 20px;
-    
+    margin: 0 10px 10px 35px;
 }
