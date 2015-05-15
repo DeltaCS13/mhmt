@@ -280,3 +280,7 @@ input.submit:hover{ background-position:bottom; }
    margin: 2%;
 
 }
+
+.textCenter {
+    text-align: center;
+}
