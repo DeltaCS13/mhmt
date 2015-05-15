@@ -284,3 +284,9 @@ input.submit:hover{ background-position:bottom; }
 .textCenter {
     text-align: center;
 }
+
+.servicesImg {
+    
+    margin: 0 12px 20px;
+    
+}
