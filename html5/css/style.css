@@ -228,7 +228,7 @@ textarea{ float:left; width:310px; height:107px; font-family:Arial, Helvetica, s
 
 input.capthca{ float:left; width:126px; margin-bottom:5px; margin-left:10px;}
 
-input.submit{ width:83px; height:28px;  color:#606060; text-transform:uppercase; text-shadow:1px 1px 1px #fff; cursor:pointer; background:url(../images/submit.png) left top no-repeat; border:none; margin:5px 0 0 0px; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;}
+input.submit{ width:100px; height:28px;  color:#606060; text-transform:uppercase; text-shadow:1px 1px 1px #fff; cursor:pointer; background:url(../images/submit.png) left top no-repeat; background-size: 100px 28px;border:none; padding: 0 5px; margin:5px 0 0 40px; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;}
 input.submit:hover{ background-position:bottom; }
 
 
